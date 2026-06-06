@@ -8,6 +8,7 @@ keywords = ["eisenstein", "quantization", "hexagonal", "ternary", "lattice"]
 categories = ["mathematics", "science"]
 
 [dependencies]
+ternary-types = { git = "https://github.com/SuperInstance/ternary-types.git", features = ["std"] }
 num-rational = "0.4"
 num-traits = "0.2"
 
